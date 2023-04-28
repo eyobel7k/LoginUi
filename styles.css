@@ -1,0 +1,130 @@
+/* Resetting the default margin and padding */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Giving height to the body */
+
+body{
+    height: 100vh;
+    background-image: url("./pexels-ethan-brooke-16394365.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* setting up the container using flex properties */
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100%;
+}
+
+/* h1  */
+
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+/*  Form */
+
+.login{
+   width: 400px;
+   max-width: 500px;
+   min-width: 300px;
+   border-radius: 6px;
+   padding: 3rem;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+   background-color: #333333a2;
+}
+
+/* Form anchor tags and hr */
+
+.login a{
+    text-align: center; 
+    display: block;
+    color: #fff;
+  }
+  
+  .login hr{
+      width: 100%;
+      border-width: 0.5px;
+      margin-bottom: 1rem;
+  }
+
+/* form input fields */
+input{
+    width: 100%;
+    background-color: rgb(237, 242, 244);
+    padding: 14px 16px;
+    margin-bottom: 0.7rem;
+    border-radius: 6px;
+    border-color: #c4b5b596;
+    border-width: 1px;
+}
+
+input:focus{
+ border-color: #c4b5b596; 
+ outline: none;
+}
+
+/*  change the color and fontsize of the placeholder */
+
+input::placeholder {
+    color:rgb(118, 118, 118); 
+    font-size: 1.2em;
+  }
+
+/* Login button  */
+
+#login{
+    background-color:#FFE01B ;
+    color:#000;
+    border: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for the Login button  */
+
+#login:hover{
+    background-color: #e5c705;
+    color: #fff;
+}
+
+/* Forgot account */
+
+.account-reset{
+    font-size: 17px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+/* Create new account button */
+
+#sign-up{
+    background-color:#043e30;
+    color:#fff;
+    border: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+#sign-up:hover{
+    background-color:  #0ad3a4d1;
+}
+
+
+
+
+
